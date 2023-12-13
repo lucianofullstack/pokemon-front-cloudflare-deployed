@@ -1,6 +1,6 @@
 import
 axios from 'axios'
-axios.defaults.baseURL =  'pokemon-back.adaptable.app'
+axios.defaults.baseURL =  'https://pokemon-back.adaptable.app'
 
 export const 
 
