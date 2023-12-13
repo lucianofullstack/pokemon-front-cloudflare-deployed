@@ -4,9 +4,6 @@ ReadData = async () => {
     status = useSelector((state) => state.status),
     dispatch = useDispatch()
     useEffect(() => {
-
-        console.log(status['GET_ALL'])
-
         if (!status['GET_ALL']) {
             dispatch(getAll())
         }

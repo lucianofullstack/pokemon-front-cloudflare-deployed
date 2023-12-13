@@ -20,6 +20,7 @@ const
 
             case 'GET_ALL':
                 state.filter = action.payload
+                console.log(action.payload)
                 return {
                     ...state,
                     data: action.payload,
